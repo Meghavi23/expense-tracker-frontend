@@ -1,0 +1,13 @@
+.add-income-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-income-form input {
+  margin-bottom: 1rem;
+}
+
+.add-income-form button {
+  align-self: center;
+  width: fit-content;
+}

@@ -1,0 +1,48 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dashboard-container h2 {
+  margin-bottom: 1rem;
+  color: #0070e0;
+}
+
+.dashboard-container p {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.chart-wrapper {
+  margin-top: 2rem;
+}
+
+.navigation-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.nav-button {
+  padding: 0.8rem 1.5rem;
+  background-color: #0070e0;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #005bb5;
+}

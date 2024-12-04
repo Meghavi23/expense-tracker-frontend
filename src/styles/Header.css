@@ -1,0 +1,102 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0070e0; /* Simplifi Blue */
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #ffdd57; /* Highlight color */
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.login-button,
+.signup-button,
+.logout-button {
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.login-button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.login-button:hover {
+  background-color: #005bb5;
+  color: #fff;
+}
+
+.signup-button {
+  background-color: #ffdd57;
+  color: #0070e0;
+}
+
+.signup-button:hover {
+  background-color: #ffbe2e;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo-image {
+  height: 100px; /* Adjust the size as needed */
+  width: auto;
+}
+
+.active-link {
+  color: #ffdd57;
+  border-bottom: 2px solid #ffdd57;
+  font-weight: bold;
+}
