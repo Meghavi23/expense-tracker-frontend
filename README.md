@@ -13,7 +13,7 @@ The Expense Tracker Frontend is built using React.js with Material-UI for stylin
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Meghavi23/expense-tracker-frontend.git
    cd expense-tracker-frontend
    ```
 
